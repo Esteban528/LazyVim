@@ -35,7 +35,7 @@ return {
       require("colorizer").setup()
     end,
   },
-  {
-    "tribela/vim-transparent",
-  },
+  -- {
+  --   "tribela/vim-transparent",
+  -- },
 }
