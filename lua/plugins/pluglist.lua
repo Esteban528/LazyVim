@@ -27,6 +27,12 @@ return {
     },
   },
   {
+    "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
+  },
+  {
     "mg979/vim-visual-multi",
   },
   {
@@ -37,5 +43,16 @@ return {
   },
   -- {
   --   "tribela/vim-transparent",
+  -- },
+
+  -- -- add gruvbox
+  -- { "ellisonleao/gruvbox.nvim" },
+  --
+  -- -- Configure LazyVim to load gruvbox
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "gruvbox",
+  --   },
   -- },
 }

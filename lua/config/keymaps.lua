@@ -12,3 +12,5 @@ map("n", "<S-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window W
 
 --MyBinds
 map("n", "<leader>;", "$a;<ESC>")
+
+map("n", "<leader>T", ":JavaTestViewLastReport<CR>")
