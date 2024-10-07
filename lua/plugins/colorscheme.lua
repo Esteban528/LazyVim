@@ -1,5 +1,12 @@
 if true then
-  return {}
+  -- return {}
+
+  return {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  }
 end
 
 return {

@@ -41,18 +41,22 @@ return {
       require("colorizer").setup()
     end,
   },
-  -- {
-  --   "tribela/vim-transparent",
-  -- },
+  {
+    "tribela/vim-transparent",
+    -- "rebelot/kanagawa.nvim",
+  },
 
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
-
-  -- Configure LazyVim to load gruvbox
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
+    "uloco/bluloco.nvim",
+    lazy = false,
+    priority = 1000,
+    dependencies = { "rktjmp/lush.nvim" },
+    config = function()
+      -- your optional config goes here, see below.
+    end,
   },
+  { "yorik1984/newpaper.nvim" },
+  -- -- Configure LazyVim to load gruvbox
 }
